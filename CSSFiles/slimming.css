@@ -38,7 +38,7 @@
 
 /* Btn */
 .btn-slimming {
-  background-color: #e26d93;
+  background-color: black;
   color: #fff;
   padding: 8px 28px;
   border-radius: 25px;
@@ -46,6 +46,6 @@
 }
 
 .btn-slimming:hover {
-  background-color: #c95b7d;
+  background-color: rgba(0, 0, 0, 0.786);
   color: #fff;
 }

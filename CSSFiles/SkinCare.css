@@ -1,0 +1,86 @@
+/* Skin Care Section */
+.skincare-section {
+    margin-top: 100px;
+}
+.skincare-section h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.skincare-section h1 span{
+    color: #D988A1;
+}
+.container {
+    margin-top: 100px;
+    min-width: 100%; 
+}
+.container .row {
+    width: 80% !important;
+}
+.product-card {
+    max-width: 320px;
+    padding: 15px;
+    border-radius: 12px;
+}
+.row .col {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product-img img {
+    width: 100%;
+    border-radius: 10px;
+} 
+
+.sizes {
+    color: #666;
+    font-size: 14px;
+    margin: 8px 0 4px;
+}
+
+.brand {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--bs-black);
+}
+
+.product-name {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.rating {
+    font-size: 16px;
+    color: var(--bs-yellow);
+    margin-bottom: 6px;
+}
+
+.rating .count {
+    color: #777;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background: var(--bs-black);
+    color: var(--bs-white);
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background: #333;
+}

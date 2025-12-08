@@ -1,17 +1,20 @@
 body {
     font-family:cursive !important;
+    position: relative;
 }
 
 /* Navbar */
+.nav-section {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
 .bg-body-tertiary {
-    box-shadow: 0 2px 10px gray;
+    box-shadow: 0 2px 15px black;
 }
 .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     justify-content: center;
-}
-.collapse:not(.show) {
-    display: none !important;
 }
 .nav-container .nav-item a {
     color: #D988A1 !important;
@@ -53,6 +56,9 @@ body {
     .navbar .container-fluid .icons {
         display: none !important;
     }
+    .collapse:not(.show) {
+    display: none !important;
+}
     .show ul {
      width: 100%;
      margin-top: 20px !important;
@@ -67,82 +73,3 @@ body {
     }
 }
 
-/* Main */
-main {
-    margin-top: 100px;
-}
-main h1 {
-    text-align: center;
-    color: #D988A1;
-    font-weight: bold;
-}
-.container {
-    margin-top: 100px;
-    min-width: 100%; 
-}
-.product-card {
-    max-width: 320px;
-    padding: 15px;
-    border-radius: 12px;
-    /* background: var(--bs-white); */
-    /* box-shadow: 0 2px 10px rgba(0,0,0,0.08); */
-    font-family: "Poppins", sans-serif;
-}
-
-/* .product-img img {
-    width: 100%;
-    border-radius: 10px;
-} */
-
-.sizes {
-    color: #666;
-    font-size: 14px;
-    margin: 8px 0 4px;
-}
-
-.brand {
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 4px;
-    color: var(--bs-black);
-}
-
-.product-name {
-    font-size: 14px;
-    color: #333;
-    line-height: 1.4;
-    margin-bottom: 8px;
-}
-
-.rating {
-    font-size: 16px;
-    color: var(--bs-yellow);
-    margin-bottom: 6px;
-}
-
-.rating .count {
-    color: #777;
-    font-size: 14px;
-}
-
-.price {
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 12px;
-}
-
-.add-btn {
-    width: 100%;
-    padding: 10px 0;
-    border: none;
-    background: var(--bs-black);
-    color: var(--bs-white);
-    border-radius: 25px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.add-btn:hover {
-    background: #333;
-}

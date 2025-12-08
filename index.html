@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./CSSFiles/header.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./CSSFiles/header.css">
+    <link rel="stylesheet" href="./CSSFiles/home.css">
+    <link rel="stylesheet" href="./CSSFiles/SkinCare.css">
 </head>
 <body>
     <!-- Header Section : logo - navbar -->
@@ -16,7 +18,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
+            <div class="collapse navbar-collapse nav-list" id="navbarText">
               <ul class="navbar-nav mb-2 mb-lg-0 m-0 d-flex align-items-center justify-content-center nav-container">
                  <li class="nav-item ">
                      <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -43,8 +45,40 @@
       </div>
     </nav>
     <!-- Main Section -->
-    <!-- <main class="d-flex flex-column w-100">
-        <h1>SkinCare Products</h1>
+    <main>
+        <section class="home-section">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner carousel-content">
+                 <div class="carousel-item active" id="first-item">
+                     <img src="./Images/shopping girl.jpg" class="d-block w-100" alt="...">
+                     <div class="carousel-caption d-none d-md-block" id="store-details">
+                         <h2>Enhance Your Beauty..</h2>
+                         <p>Explore products for SkinCare, Slimming, and Hair Care..</p>
+                         <button type="button">Shop Now</button>
+                     </div>
+                 </div>
+                 <div class="carousel-item">
+                     <img src="./Images/HAIRCARE.webp" class="d-block w-100" alt="...">
+                 </div>
+                 <div class="carousel-item">
+                     <img src="./Images/woman skincare.jpg" class="d-block w-100" alt="...">
+                 </div>
+                 <div class="carousel-item">
+                     <img src="./Images/skincare products.webp" class="d-block w-100" alt="...">
+                 </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+        </section>
+     <section class="d-flex flex-column w-100 skincare-section">
+        <h1>SkinCare Prod<span>ucts</span></h1>
         <div class="container ms-0 me-0 d-flex justify-content-center">
           <div class="row">
               <div class="col col-12 col-sm-6 col-md-6 col-lg-4">
@@ -101,32 +135,64 @@
                        <button class="add-btn">Add to bag</button>
                  </div>
              </div>
+             <div class="col col-12 col-sm-6 col-md-6 col-lg-4">
+                 <div class="product-card">
+                    <div class="product-img">
+                      <img src="https://media.ulta.com/i/ulta/2568521?w=400&$ProductCardNeutralBGLight$&h=400&fmt=auto" alt="Product Image">
+                   </div>
+                   <p class="sizes">2 sizes</p>
+                   <h3 class="brand">Estée Lauder</h3>
+                   <p class="product-name">
+                       Glycolic Acid 7% Exfoliating and Brightening Daily Toner
+                  </p>
+                  <div class="rating">
+                      ★★★★☆
+                     <span class="count">(2019)</span>
+                  </div>
+                 <p class="price">$8.70 – $13.00</p>
+                 <button class="add-btn">Add to bag</button>
+                 </div> 
+             </div>
+             <div class="col col-12 col-sm-6 col-md-6 col-lg-4">
+                 <div class="product-card">
+                    <div class="product-img">
+                      <img src="https://media.ulta.com/i/ulta/2154676?w=400&$ProductCardNeutralBGLight$&h=400&fmt=auto" alt="Product Image">
+                   </div>
+                   <p class="sizes">2 sizes</p>
+                   <h3 class="brand">Clinique</h3>
+                   <p class="product-name">
+                       Glycolic Acid 7% Exfoliating and Brightening Daily Toner
+                  </p>
+                  <div class="rating">
+                      ★★★★☆
+                     <span class="count">(2019)</span>
+                  </div>
+                 <p class="price">$8.70 – $13.00</p>
+                 <button class="add-btn">Add to bag</button>
+                 </div> 
+             </div>
+             <div class="col col-12 col-sm-6 col-md-6 col-lg-4">
+                 <div class="product-card">
+                    <div class="product-img">
+                      <img src="https://media.ulta.com/i/ulta/2643715?w=400&$ProductCardNeutralBGLight$&h=400&fmt=auto" alt="Product Image">
+                   </div>
+                   <p class="sizes">2 sizes</p>
+                   <h3 class="brand">Olehenriksen</h3>
+                   <p class="product-name">
+                       Glycolic Acid 7% Exfoliating and Brightening Daily Toner
+                  </p>
+                  <div class="rating">
+                      ★★★★☆
+                     <span class="count">(2019)</span>
+                  </div>
+                 <p class="price">$8.70 – $13.00</p>
+                 <button class="add-btn">Add to bag</button>
+                 </div> 
+             </div>
          </div>
         </div>
-         <div class="product-card">
-    <div class="product-img">
-        <img src="	https://media.ulta.com/i/ulta/2551155?w=400&$ProductCardNeutralBGLight$&h=400&fmt=auto" alt="Product Image">
-    </div>
-
-    <p class="sizes">2 sizes</p>
-
-    <h3 class="brand">The Ordinary</h3>
-
-    <p class="product-name">
-        Glycolic Acid 7% Exfoliating and Brightening Daily Toner
-    </p>
-
-    <div class="rating">
-        ★★★★☆
-        <span class="count">(2019)</span>
-    </div>
-
-    <p class="price">$8.70 – $13.00</p>
-
-    <button class="add-btn">Add to bag</button>
-</div> 
-
-    </main> -->
+    </section>
+</main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

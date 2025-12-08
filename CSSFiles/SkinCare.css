@@ -2,19 +2,16 @@
 .skincare-section {
     margin-top: 100px;
 }
-.skincare-section h1 {
+.title {
     text-align: center;
     font-weight: bold;
 }
-.skincare-section h1 span{
+.title span{
     color: #D988A1;
 }
 .container {
-    margin-top: 100px;
+    margin-top: 60px;
     min-width: 100%; 
-}
-.container .row {
-    width: 80% !important;
 }
 .product-card {
     max-width: 320px;
@@ -83,4 +80,10 @@
 
 .add-btn:hover {
     background: #333;
+}
+/* Responsive large screen */
+@media (min-width:992px){
+    .container .row {
+    width: 80% !important;
+}
 }

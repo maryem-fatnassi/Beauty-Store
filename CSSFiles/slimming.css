@@ -1,0 +1,51 @@
+.section-subtitle {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Cards */
+#slimming-pro-row {
+    margin: 0 auto;
+}
+.slimming-card {
+  border-radius: 18px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 50px;
+}
+
+.slimming-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.slimming-card img {
+  height: 250px;
+  /* object-fit: cover; */
+}
+
+.card-body {
+    border-top: 1px solid silver;
+    box-shadow: 2px 0px 4px gray;
+}
+
+.card-title {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-size: 22px;
+}
+
+/* Btn */
+.btn-slimming {
+  background-color: #e26d93;
+  color: #fff;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn-slimming:hover {
+  background-color: #c95b7d;
+  color: #fff;
+}

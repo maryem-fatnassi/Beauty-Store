@@ -2,7 +2,6 @@
   color: #555;
   font-size: 1rem;
 }
-
 /* Cards */
 #slimming-pro-row {
     margin: 0 auto;
@@ -12,30 +11,26 @@
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-top: 50px;
+  /* border: 1 solid rgba(192, 192, 192, 0.593); */
+  border: none;
 }
-
 .slimming-card:hover {
   transform: translateY(-7px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
-
 .slimming-card img {
   height: 250px;
-  /* object-fit: cover; */
 }
-
 .card-body {
     border-top: 1px solid silver;
     box-shadow: 2px 0px 4px gray;
 }
-
 .card-title {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     color: green;
     font-size: 22px;
 }
-
 /* Btn */
 .btn-slimming {
   background-color: black;
@@ -44,7 +39,6 @@
   border-radius: 25px;
   transition: 0.3s;
 }
-
 .btn-slimming:hover {
   background-color: rgba(0, 0, 0, 0.786);
   color: #fff;

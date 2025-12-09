@@ -1,0 +1,48 @@
+.footer-section {
+  background: #f8f8f8;
+  color: #444;
+  border-top: 1px solid #e6e6e6;
+}
+.footer-section .container .row {
+    margin: 0 auto;
+}
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-text {
+  font-size: 15px;
+  color: #666;
+}
+
+.footer-section a {
+  color: #555;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section .list-unstyled a:hover {
+  color: #D988A1 ;
+  padding-left: 4px;
+}
+
+.newsletter-form input {
+  border-radius: 6px;
+}
+
+.subscribe-btn {
+  background: #D988A1  !important;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.subscribe-btn:hover {
+  opacity: 0.9;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #777;
+}

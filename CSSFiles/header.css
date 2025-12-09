@@ -1,8 +1,7 @@
 body {
-    font-family:cursive !important;
+    font-family:Arial, Helvetica, sans-serif !important;
     position: relative;
 }
-
 /* Navbar */
 .nav-section {
     position: sticky;
@@ -10,7 +9,7 @@ body {
     z-index: 20;
 }
 .bg-body-tertiary {
-    box-shadow: 0 2px 15px black;
+    box-shadow: 0 2px 5px gray;
 }
 .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -19,7 +18,7 @@ body {
 .nav-container .nav-item a {
     color: #D988A1 !important;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 700;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
@@ -35,10 +34,12 @@ body {
 .logo {
     font-weight: 900;
     margin-left: 40px;
+    font-size: 25px;
 }
 .logo span {
     color: #D988A1;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 .navbar .container-fluid .icons {
     display: block;

@@ -1,0 +1,5 @@
+.haircare-section .container .row {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+}

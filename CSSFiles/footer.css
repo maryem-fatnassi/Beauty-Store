@@ -1,6 +1,6 @@
 .footer-section {
   background: #f8f8f8;
-  color: #444;
+  /* color: #444; */
   border-top: 1px solid #e6e6e6;
 }
 .footer-section .container .row {
@@ -17,7 +17,7 @@
   color: #666;
 }
 
-.footer-section a {
+.footer-section .list-unstyled li a {
   color: #555;
   text-decoration: none;
   transition: 0.3s;

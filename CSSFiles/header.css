@@ -11,7 +11,7 @@ body {
 .bg-body-tertiary {
     box-shadow: 0 2px 5px gray;
 }
-.navbar-expand-lg .navbar-collapse {
+/* .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     justify-content: center;
 }
@@ -21,7 +21,11 @@ body {
     font-weight: 700;
     margin: 0 10px;
     transition: color 0.3s ease;
-}
+} */
+ .nav-container .nav-item a {
+    color: #D988A1 !important;
+    font-weight: 700;
+ }
 .nav-item a:hover {
     color: var(--bs-pink) !important;
 }
@@ -58,13 +62,10 @@ body {
         display: none !important;
     }
     .collapse:not(.show) {
-    display: none !important;
-}
+     display: none !important;
+    }
     .show ul {
      width: 100%;
-     margin-top: 20px !important;
-     background-color: rgba(255, 192, 203, 0.137);
-     letter-spacing: 1.5px;
     }
     .show ul li {
      width: 100%;
